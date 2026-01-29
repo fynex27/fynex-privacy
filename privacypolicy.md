@@ -2,72 +2,86 @@
 
 Last updated: January 2026
 
-This Privacy Policy explains how this Discord bot ("the Bot") collects, uses, and protects data when operating in Discord servers.
+This Privacy Policy describes how this Discord bot ("the Bot") collects, processes, and protects data while operating in Discord servers.
 
 ---
 
-## 1. Data Collection
+## 1. Purpose
 
-The Bot processes the following data only as required for its functionality:
-
-- Message content (for prefix-based commands and moderation purposes)
-- User IDs, Server IDs, and Channel IDs
-- Member join and leave events
-- Moderation-related events (such as bans, kicks, and logs)
-
-The Bot does **not** read or store private (DM) messages.
+The Bot is designed to provide automated moderation and server security features, including protection against spam, malicious links, invite links, prohibited language, and abusive behavior.
 
 ---
 
-## 2. Message Content Usage
+## 2. Data Processed
 
-Message content is processed **in real time only** to:
-- Execute prefix-based commands (e.g., moderation or utility commands)
-- Detect spam, malicious links, or rule violations
-- Perform server security and moderation actions
+The Bot may process the following data **only when required for moderation and security purposes**:
 
-Message content is **not stored, logged, or retained** after processing.
+- Message content (for automated moderation such as anti-spam, anti-link, anti-invite, and anti-swear filters)
+- User IDs, Server IDs, Channel IDs
+- Member moderation events (e.g., mutes, warnings, logs)
 
----
-
-## 3. Data Storage
-
-The Bot does not store message content or private messages.
-
-Only minimal data such as configuration settings, server IDs, role IDs, and user IDs may be stored to ensure proper operation of moderation and security features.
+The Bot **does not read or store private (DM) messages**.
 
 ---
 
-## 4. Data Sharing
+## 3. Message Content Usage
 
-The Bot does not sell, share, or transfer user data to third parties.
+Message content is analyzed **in real time** to automatically detect:
+- Spam and repeated messages
+- Malicious or invite links
+- Prohibited or abusive words
+- Other rule violations configured by server administrators
 
-All data processing occurs strictly within Discord and is used only for the intended moderation and security purposes.
+When a violation is detected, the Bot may automatically take moderation actions such as deleting the message, muting the user, or logging the event.
+
+**Message content is not stored, logged, or retained** after processing.
 
 ---
 
-## 5. User Control and Opt-Out
+## 4. Data Storage
+
+The Bot does **not** store message content.
+
+Only minimal configuration data (such as server settings, enabled moderation rules, role IDs, and user IDs related to moderation actions) may be stored to ensure proper operation.
+
+---
+
+## 5. Data Sharing
+
+The Bot does not sell, share, or transfer user data to any third parties.
+
+All data processing occurs strictly within Discord and is limited to moderation and security functionality.
+
+---
+
+## 6. User Control and Opt-Out
 
 Server administrators can:
-- Disable specific bot features
-- Remove the Bot from their server at any time
+- Enable or disable moderation features at any time
+- Remove the Bot from their server
 
 Removing the Bot immediately stops all data processing.
 
 ---
 
-## 6. Security
+## 7. Machine Learning and AI
 
-Reasonable measures are taken to protect all stored configuration data and prevent unauthorized access.
-
----
-
-## 7. Changes to This Policy
-
-This Privacy Policy may be updated from time to time. Any changes will be reflected in this document with an updated revision date.
+Message content and user data are **not used** to train machine learning models or AI systems.
 
 ---
 
-## 8. Contact
+## 8. Security
 
-If you have questions or concerns about this Privacy Policy, please contact the bot developer through the official support or contact channel.
+Reasonable technical measures are implemented to protect stored configuration data and prevent unauthorized access.
+
+---
+
+## 9. Changes to This Policy
+
+This Privacy Policy may be updated periodically. Any changes will be reflected by updating the revision date at the top of this document.
+
+---
+
+## 10. Contact
+
+If you have questions or concerns regarding this Privacy Policy, please contact the bot developer through the official support or contact channel.
