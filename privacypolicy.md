@@ -1,75 +1,122 @@
-Overview
+# Privacy Policy
 
-Fynex is a Discord moderation bot designed to help server administrators protect their communities from spam, malicious links, invite advertisements, and rule violations.
+**Effective Date:** [Add Date]
 
-We respect user privacy and are committed to processing only the minimum data necessary for moderation features to function properly.
+This Privacy Policy describes how **Fynex** ("the Bot") collects, uses, stores, and protects information when users add or interact with Fynex in their Discord servers.
 
-Fynex does not collect sensitive personal information such as emails, passwords, or private account details.
+---
 
-Data We Process
+## 1. Information We Collect
 
-To operate correctly, Fynex may process limited Discord-provided information:
+The Bot only collects data that is necessary for functionality, moderation, security, and automation features.
 
-User IDs & Server IDs – to identify servers and users for moderation actions.
+### 1.1 Server Information
 
-Channel IDs & Role IDs – to manage logs, permissions, and enforcement systems.
+* Server ID
+* Server name
+* Role IDs and names
+* Channel IDs
+* Configuration settings related to moderation, automod, antinuke, logging, temp voice, activity roles, vanity roles, etc.
 
-Message Content (Temporary Processing Only) – messages are analyzed in real-time to:
+### 1.2 User Information
 
-Detect external links
+* User ID
+* Username and discriminator
+* Nickname (within server)
+* Role assignments
 
-Block Discord invite advertisements
+### 1.3 Message Data
 
-Filter banned words set by administrators
+* Message content (only when required for moderation, automod filtering, logging, or command execution)
+* Message IDs
+* Channel IDs
+* Timestamps
 
-Identify spam or repeated message abuse
+### 1.4 Security & Anti-Nuke Logs
 
-Message content is not permanently stored.
+* Audit log entries
+* Action executor ID
+* Target ID
+* Action type (e.g., role delete, channel delete, ban, kick)
+* Timestamps for security tracking
 
-Data Retention & Storage
+The Bot does NOT collect passwords, email addresses, payment information, or any personal data outside of what Discord provides through its API.
 
-Message content is processed temporarily and discarded immediately after moderation checks.
+---
 
-Server configuration data (such as enabled systems or filter lists) may be stored to ensure proper functionality.
+## 2. How We Use the Data
 
-If Fynex is removed from a server, related configuration data may be deleted.
+Collected data is used strictly for:
 
-We do not maintain long-term records of user message history.
+* Moderation enforcement (warnings, bans, mutes, kicks)
+* Auto-moderation filtering (spam, links, abusive content, etc.)
+* Anti-nuke protection (preventing malicious server actions)
+* Logging administrative actions
+* Managing temporary voice channels
+* Assigning activity roles and vanity roles
+* Command execution and feature customization
+* Improving bot stability and performance
 
-Data Sharing
+Data is never sold, rented, or shared with third parties.
 
-Fynex does not sell, rent, trade, or share user data with third parties.
+---
 
-All data is used strictly for operating moderation features within Discord.
+## 3. Data Storage
 
-Data Security
+* Data may be stored in secure databases.
+* Only necessary configuration and moderation-related data is stored.
+* Logs may be automatically deleted after a certain retention period.
+* Server owners may request data removal.
 
-We follow standard Discord API practices and reasonable security measures to protect stored configuration data.
+---
 
-Only essential operational data is retained.
+## 4. Data Sharing
 
-Children’s Privacy
+We do not share data with third parties except:
 
-Discord requires users to be at least 13 years old.
-Fynex operates within Discord’s platform and follows the same requirement.
+* When required by law
+* When required to prevent abuse, fraud, or illegal activity
+* When requested by Discord Trust & Safety
 
-We do not knowingly collect personal information outside of what is provided by Discord’s official API.
+---
 
-Third-Party Services
+## 5. User Rights
 
-Fynex operates using the official Discord API.
-We do not connect to external analytics or advertising services.
+Server owners and administrators may:
 
-Updates to This Privacy Policy
+* Request removal of server data
+* Reset stored configuration data
+* Remove the Bot to stop all future data collection
 
-This Privacy Policy may be updated in the future if required.
+Once the Bot is removed from a server, stored configuration data may be deleted within a reasonable time.
 
-The latest version will always be available publicly on our official repository or support resources.
+---
 
-Contact & Support
+## 6. Data Security
 
-If you have questions regarding this Privacy Policy:
+We implement reasonable technical and organizational safeguards to protect stored data. However, no system is 100% secure.
 
-Support Server: https://discord.gg/coredevs
+---
 
-Official Server ID: 1292154175030825002
+## 7. Children's Privacy
+
+The Bot is not intended for users under the age of 13. Since Discord itself requires users to be at least 13 years old, the Bot does not knowingly collect data from children.
+
+---
+
+## 8. Changes to This Policy
+
+We reserve the right to update or modify this Privacy Policy at any time. Continued use of the Bot after changes indicates acceptance of the updated policy.
+
+---
+
+## 9. Contact Information
+
+For questions, support, or data removal requests, contact:
+
+* Support Server: [https://discord.gg/coredevs](https://discord.gg/coredevs)
+* Email: [fynexdevelopment27@gmail.com]
+
+---
+
+By adding or using the Bot, you agree to this Privacy Policy.
